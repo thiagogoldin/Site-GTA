@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Pricedown';
+  src: url('fonts/pricedown.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SignPainterHouseScript';
+  src: url('fonts/SignPainterHouseScript.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pricedown', 'sans-serif';
+    color: white;
+    -webkit-text-stroke: 3px black;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: SignPainterHouseScript;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Pricedown', 'sans-serif';
+    color:white;
+    -webkit-text-stroke: 2px black;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.link-sublinhado:hover {
+    text-decoration: underline;
+}
+
+.imagens {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.imagens img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.countdown p {
+    margin-left: 128px;
+    margin-right: 128px;
+    font-family: 'Pricedown', 'sans-serif';
+    gap: 500px;
+    padding: 20px;
+    border: 4px solid RGB(166, 130, 176);
+    border-radius: 16px;
+    background-image: linear-gradient(#7E3A63, #5D549C);
+}
+
+.objetivo {
+    margin-left: 128px;
+    margin-right: 128px;
+    gap: 500px;
+    padding: 20px;
+    border: 4px solid RGB(166, 130, 176);
+    border-radius: 16px;
+    background-image: linear-gradient(#7E3A63, #5D549C);
+}
+
+body {
+    background-image: linear-gradient(#EB9998, #5D549C, #7E3A63);
+}
